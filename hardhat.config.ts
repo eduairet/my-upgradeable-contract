@@ -1,6 +1,7 @@
 import { HardhatUserConfig } from 'hardhat/config';
 import { config as dotenvConfig } from 'dotenv';
 import '@nomicfoundation/hardhat-toolbox';
+import '@openzeppelin/hardhat-upgrades';
 dotenvConfig();
 const { SEPOLIA_URL, PRIV_KEY, ETHERSCAN_KEY } = process.env;
 

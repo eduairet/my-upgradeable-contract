@@ -4,9 +4,7 @@
   "description": "Alchemy University Upgradeable Vending Machine Smart Contract by Eduardo Aire",
   "main": "hardhat.config.ts",
   "scripts": {
-    "compile": "npx hardhat compile",
-    "deploy": "npx hardhat run scripts/deploy.ts",
-    "test": "npx hardhat test"
+    "compile": "npx hardhat compile"
   },
   "repository": {
     "type": "git",
@@ -27,7 +25,9 @@
   "homepage": "https://github.com/eduairet/my-upgradeable-contract#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
-    "hardhat": "^2.14.0",
-    "dotenv": "^16.0.3"
+    "@openzeppelin/contracts-upgradeable": "^4.8.3",
+    "@openzeppelin/hardhat-upgrades": "^1.23.1",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.14.0"
   }
 }

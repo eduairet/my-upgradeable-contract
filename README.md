@@ -1,5 +1,7 @@
 # Vending Machine Smart Contract
 
+Alchemy University Upgradeable Vending Machine Smart Contract by Eduardo Aire.
+
 ## Content
 
 1. [`VendingMachine` Contract](./contracts/VendingMachine.sol)
